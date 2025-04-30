@@ -4,7 +4,7 @@ st.title('Перевірка додатку')
 name = st.text_input("Для перевірки напишіть слово 'name'")
 answer = "name"
 
-if final:
+if st.text_input:
     if name == answer:
         st.success(f"Первірка пройдена")
     else:
